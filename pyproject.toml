@@ -10,4 +10,14 @@ dependencies = [
     "scipy",
     "torch",
     "gpytorch",
+    "numpy>=2.2.2",
+    "pandas>=2.2.3",
+    "ffmpeg>=1.4",
+    "scikit-learn>=1.6.1",
+]
+
+[tool.uv.workspace]
+members = [
+"ml_basics",
+"neural_networks_using_micrograd",
 ]
